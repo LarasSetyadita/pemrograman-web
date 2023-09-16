@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Demo link</title>
+    </head>
+    <body>
+
+        <!-- untuk membuka link pada tab yang sama-->
+        Untuk membuka link pada tab yang sama
+        <a href="link2.html">Klik di sini</a>
+        <br />
+
+        <!--untuk membuka link pada tab yang berbeda-->
+        untuk membuka link pada tab yang berbeda
+        <a href="link2.html" target="_blank" title="Title link">Klik di sini</a>
+
+        <!-- link internal -->
+        <h3 align="center">menu </h3>
+        <ul>
+            <li> <a href="#pendahuluan">Pendahuluan</a></li>
+            <li> <a href="#pembahasan">Pembahasan</a></li>
+            <li> <a href="#kesimpulan">Kesimpulan</a></li>
+        </ul>
+
+        <h3 align="center" id="pendahuluan">Pendahuluan</h3>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ratione fuga, dicta ea illo 
+            assumenda qui nisi, neque officiis vel atque velit mollitia expedita recusandae, in quidem 
+            hic placeat rem nemo! Unde beatae totam minus quae est saepe iste animi qui ab harum, itaque 
+            quam deleniti non hic accusantium nulla, molestias eos repellat, praesentium provident 
+            incidunt exercitationem perspiciatis. Possimus, molestias?
+
+        <h3 align="center" id="pembahasan">Pembahasan</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam nihil numquam in dolore 
+            exercitationem quos! Reiciendis aut ducimus voluptas cum nulla similique quisquam debitis 
+            iusto perferendis tempore repellendus, blanditiis commodi quos corrupti quo aliquid odio 
+            placeat, alias velit. Est eos ducimus dolores, tempore dolorum numquam, optio necessitatibus 
+            saepe aut culpa nesciunt ad officiis facere facilis cum magnam explicabo non dolore!
+        </p>
+        <h3 align="center" id="kesimpulan">Kesimpulan</h3>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas et placeat repellat labore 
+            odit magni! Corrupti illum unde quaerat qui, voluptatem possimus, ipsam nam labore, delectus 
+            deserunt cupiditate eaque! Ut nemo ducimus voluptates delectus deserunt, iste explicabo sed! 
+            Consectetur beatae voluptatibus possimus, ut sapiente reiciendis quisquam dolor corporis 
+            minus assumenda. Veniam temporibus praesentium harum consectetur soluta eveniet minima magnam 
+            aliquam.
+        </p>
+
+        <!--membuat link email-->
+        <h3 align="center"> membuat link email</h3>
+        <a href="malito:dwilaras.2022@student.uny.ac.id"> mengirimkan email</a>
+
+        <!-- membuat link gambar -->
+        <h3 align="center" > membuat link gambar </h3>
+        <a href="http://gitazahra.blogspot.com/2017/03/filosofi-bunga-anyelir-carnation.html" title="Search with Google">
+            <img src="https://1.bp.blogspot.com/-TXgXjFz28AY/WMCbyFpCYkI/AAAAAAAAAGs/Md4ftCkb4ZcrVHRcgOD7Xq-JxT3R3Uj_QCLcB/s320/Cara-Merawat-Bunga-Carnation-Potong.jpg" border="0" />
+        </a>
+
+        <!-- membuat tabel -->
+        <h3 align="center" > membuat tabel </h3>
+        <table border="1"> <!--tebal garis sel 5 pixel -->
+            <caption> contoh pembuatan tabel</caption>
+            <!--header-->
+            <tr>
+                <th>No</th>
+                <th>Nama</th>
+                <th>Nim</th>
+            </tr>
+            <!--data pada baris pertama-->
+            <tr>
+                <td>1</td>
+                <td>laras</td>
+                <td>22537141024</td>
+            </tr>
+        </table>
+
+        <!--pembuatan tabel ke 2-->
+        <table border = "1" align="center" cellspacing="0" cellpadding="5">
+            <!--tebal garis sel 1 pixel-->
+            <!-- tabel diletakkan di tengah-->
+            <!-- jarak antar sel sebesar 0 pixel-->
+            <!-- jarak antara garis sel dengan data sebesar 5 pixel-->
+            <caption> tabel menggunakan format </caption>
+            <tr>
+                <th> NIM </th>
+                <th> Nama </th>
+                <th> Alamat </th>
+            </tr>
+            <tr> 
+                <td> 22537141024 </td>
+                <td> laras </td>
+                <td> Piyungan </td>
+            </tr>
+        </table>
+
+
+        <!--desain tabel-->
+        <table border="1" align="center" cellspacing="0" cellpadding="5">
+            <caption> desain tabel</caption>
+            <tr>
+                <th width="50">Nomor</th>
+                <th width="350" colspan="2">Nama dan Alamat</th>
+            </tr>
+            <!-- baris data pertama -->
+            <tr>
+                <!--gabung baris pertama dan kedua -->
+                <td rowspan=2>Span baris 1 dan 2 </td>
+                <td>Ibnu</td>
+                <td>Jl. Jombang</td>
+            </tr>
+            <!--baris data ke 2-->
+            <tr>
+                <td>Vita</td>
+                <td>Jl. Jakarta </td>
+            </tr>
+        </table>
+
+        <!--membuat form -->
+        <h3> formulir pendaftaran </h3>
+        <form action="" method="post">
+            <table border="0">
+                <tr>
+                    <td>NIK</td>
+                    <td><input type="text" /></td>
+                </tr>
+                <tr>
+                    <td> jenis kelamin </td>
+                    <td>
+                        <input type="radio" />Pria
+                        <input type="radio" />Wanita 
+                    </td>
+                </tr>
+                <tr>
+                    <td>pekerjaan</td>
+                    <td>
+                        <select name="job">
+                            <option>Guru</option>
+                            <option>Wiraswasta</option>
+                            <option>Lainnya</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="ok" />
+                        <input type="submit" value="cancel" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

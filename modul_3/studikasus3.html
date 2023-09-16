@@ -1,0 +1,41 @@
+<!DOCTYPE>
+<html>
+    <head><title>Studi Kasus</title></head>
+    <body style="font-family: sans-serif">
+        <table>
+            <h4>Studi Kasus: Validasi Input HTML5</h4>
+            <form>
+                <tr>
+                    <td>Nama </td>
+                    <td>:</td>
+                    <td><input type="text" name="nama" size="30" placeholder="Isikan Nama Anda" required pattern="[a-zA-Z ]"</td>
+                </tr>
+                <tr>
+                    <td>Usia </td>
+                    <td>:</td>
+                    <td><input type="number" min="17" max="30" size="3" name="usia"  required> (Usia min 17-30)</td>
+                </tr>
+                <tr>
+                    <td>Email </td>
+                    <td>:</td>
+                    <td><input type="email" name="email" size="30" placeholder="nama_email@host.com" required></td>
+                </tr>
+                <tr>
+                    <td>Web </td>
+                    <td>:</td>
+                    <td><input type="url" name="web" size="40" placeholder="http://" required> </td>
+                </tr>
+                <tr>
+                    <td>Password </td>
+                    <td>:</td>
+                    <td><input type="password" name="password" size="30"placeholder="Semua karakter, min 8" required minlength="8"><b><i> (Bonus)</i></b></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><input type="submit"</td>
+                </tr>
+            </form>
+        </table>
+    </body>
+</html>
